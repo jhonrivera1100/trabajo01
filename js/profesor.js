@@ -39,6 +39,7 @@ if (roles==2){
     b.textContent="Descarga nuestra aplicacion mobil recuerda que para postularte a una clase ya sea presencial o virtual tienes que iniciar sesion y registrarte como docente y postularse para  la clase mediante nuestra App mobil, nuestro sitio web te permitira conocer mas sobre nosotros y ver informacion de tu cuenta y de los servicios que haz tomado";
     const man=document.querySelector('.heading-5-font-weight-normal');
     man.textContent="Postulate a las solicitudes de clases con confianza";
+    document.querySelector(".")
 }
 else if(roles==3){
     const a=document.querySelector('.d-block')
@@ -63,4 +64,5 @@ else if(roles==3){
     b.textContent="Descarga nuestra aplicacion mobil recuerda que para postularte a una clase ya sea presencial o virtual tienes que iniciar sesion y registrarte como docente y postularse para  la clase mediante nuestra App mobil, nuestro sitio web te permitira conocer mas sobre nosotros y ver informacion de tu cuenta y de los servicios que haz tomado";
     const man=document.querySelector('.heading-5-font-weight-normal');
     man.textContent="Postulate a las solicitudes de clases con confianza";
+
 }

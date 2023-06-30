@@ -402,6 +402,7 @@ p [style*='max-width'] {
 
 .text-light {
 	font-weight: 300;
+	color: #00aced;
 }
 
 .text-secondary {
@@ -447,6 +448,7 @@ p [style*='max-width'] {
 .title-icon {
 	display: flex;
 	align-items: center;
+	color: #00aced;
 }
 
 .title-icon .icon {
@@ -11785,4 +11787,10 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .context-dark .countdown-circle-bg, .bg-gray-800 .countdown-circle-bg, .bg-primary .countdown-circle-bg {
 	fill: rgba(255, 255, 255, 0.1);
+}
+
+.element {
+    background-image: url(images/matematicas.jpg);
+    background-size: cover;
+    width: 997px;
 }

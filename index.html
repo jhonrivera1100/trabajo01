@@ -101,12 +101,12 @@
             </div> 
             <div class="mb-3"> 
               <label for="exampleInputEmail1">usuario</label> 
-              <input id="user" type="text" class="form-control" id="inicioDocumento" aria-describedby="emailHelp" required maxlength="10" minlength="7"> 
+              <input id="user" type="text" class="form-control" id="email" aria-describedby="emailHelp" required maxlength="10" minlength="7"> 
               <div id="emailHelp" class="form-text">Nunca compartiremos su información personal con nadie más.</div> 
             </div> 
             <div class="mb-3"> 
               <label id="pass" for="exampleInputPassword1" >Contraseña</label> 
-              <input type="password" class="form-control" id="inicioContraseña"  maxlength="10" minlength="7" required> 
+              <input type="password" class="form-control" id="password"  maxlength="10" minlength="7" required> 
             </div> 
             
       
@@ -120,7 +120,7 @@
           </div> 
           <div id="centrar"> 
           
-            <button type="submit" class="btn btn-primary" id="enviarInicio" onclick="location.href='javascript:inicio(user, pass)'">Ingresar</button>  
+            <button type="submit" class="btn btn-primary" id="boton" onclick="location.href='javascript:inicio(user, pass)'">Ingresar</button>  
            <a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalRegistro">Regístrate</a> 
          </div> 
 
@@ -136,6 +136,40 @@
     </div>   
   <!-- fin del Modal de inicio de sesion -->
 
+  
+<!-- inicio modal de registro -->
+  <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" required>
+            </div>
+            <div class="mb-3">
+              <label for="contraseña">Contraseña</label>
+              <input type="password" class="form-control" id="contraseña" required>
+            </div>
+            <div class="mb-3">
+              <label for="confirmar-contraseña" >Confirmar contraseña</label>
+              <input type="password" class="form-control" id="confirmar-contraseña" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- final modal de registro   -->
 
 
       <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
